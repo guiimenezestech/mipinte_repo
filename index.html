@@ -3,115 +3,162 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MiPinte — Loja (Catálogo Git)</title>
+  <title>MiPinte — Loja</title>
   <style>
-    :root{--bg:#F9FAFB;--card:#fff;--text:#0F172A;--muted:#64748B;--primary:#4D96FF;--border:#E2E8F0;}
-    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif}
-    .wrap{max-width:980px;margin:24px auto;padding:0 16px}
-    h1{font-size:24px;margin:0 0 12px}
-    p{color:var(--muted);margin:6px 0 16px}
-    .toolbar{display:flex;gap:8px;align-items:center;margin:12px 0}
-    .search{flex:1;padding:12px;border-radius:12px;border:1px solid var(--border);font-size:14px;background:#fff}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px;display:flex;flex-direction:column;gap:8px}
-    .thumb{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#fff;border:1px solid var(--border)}
-    .title{font-weight:700} .muted{color:var(--muted);font-size:12px}
-    .row{display:flex;gap:8px;flex-wrap:wrap}
-    .btn{background:var(--primary);color:#fff;border:none;border-radius:999px;padding:10px 14px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
-    .btn.ghost{background:#fff;color:var(--muted);border:1px solid var(--border)}
+    :root{
+      --bg:#F9FAFB; --card:#FFFFFF; --text:#0F172A; --muted:#64748B;
+      --primary:#4D96FF; --border:#E2E8F0; --shadow:0 6px 24px rgba(0,0,0,.06);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif}
+    .wrap{max-width:1060px;margin:24px auto;padding:0 16px}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+    .title{font-size:24px;font-weight:800}
+    .subtitle{color:var(--muted);font-size:14px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:16px}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:16px; overflow:hidden;
+      box-shadow:var(--shadow); display:flex; flex-direction:column;
+    }
+    .thumb{
+      width:100%; aspect-ratio:1/1; object-fit:cover; background:#fff; border-bottom:1px solid var(--border);
+    }
+    .body{padding:12px; display:flex; flex-direction:column; gap:6px}
+    .name{font-weight:800; font-size:16px; line-height:1.15}
+    .row{display:flex; align-items:center; justify-content:space-between}
+    .badge{font-size:12px; color:var(--muted)}
+    .btn{
+      appearance:none; border:none; border-radius:999px; padding:10px 14px; font-weight:800; cursor:pointer;
+      text-decoration:none; display:inline-flex; align-items:center; justify-content:center; gap:8px;
+      background:var(--primary); color:#fff;
+    }
+    .btn:active{transform:translateY(1px)}
+    .ghost{background:#fff; color:var(--muted); border:1px solid var(--border)}
+    .topnote{
+      background:#fff; border:1px solid var(--border); border-radius:12px; padding:10px 12px; color:var(--muted);
+      font-size:12px;
+    }
+    .status{margin-top:12px}
     .error{background:#fff3f3;border:1px solid #ffd6d6;color:#7a1f1f;padding:12px;border-radius:12px}
-    .empty{color:var(--muted);text-align:center;padding:24px}
-    .topnote{font-size:12px;color:var(--muted)}
+    .empty{color:var(--muted); text-align:center; padding:24px}
+    .skeleton{
+      background:linear-gradient(90deg,#f2f4f7 25%,#e9edf2 37%,#f2f4f7 63%);
+      background-size:400% 100%; animation:shimmer 1.2s infinite; border-radius:12px; height:180px; border:1px solid var(--border);
+    }
+    @keyframes shimmer{0%{background-position:100% 0}100%{background-position:0 0}}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>MiPinte — Loja (Catálogo do Git)</h1>
-    <p class="topnote">Esta página lê <code>catalog.json</code> neste repositório e monta a lista automaticamente. O botão “Abrir no MiPinte” usa <code>mipinte://install?url=&lt;ZIP_URL&gt;</code>. O app deriva o <em>id</em> do nome do arquivo antes de <code>.zip</code>.</p>
+    <header>
+      <div>
+        <div class="title">MiPinte — Loja</div>
+        <div class="subtitle">Toque em “Instalar no MiPinte” no celular para adicionar novos desenhos.</div>
+      </div>
+      <div class="topnote">O app deriva o <b>id</b> do nome do arquivo antes de <code>.zip</code>.</div>
+    </header>
 
-    <div class="toolbar">
-      <input id="q" class="search" type="search" placeholder="Buscar por título…" />
-      <a id="refresh" class="btn ghost" href="#">Recarregar</a>
+    <div id="status" class="status"></div>
+
+    <!-- grid de cards -->
+    <div id="grid" class="grid" aria-live="polite">
+      <!-- skeleton loading -->
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
     </div>
 
-    <div id="status"></div>
-    <div id="grid" class="grid"></div>
-    <div id="empty" class="empty" style="display:none">Nenhum item encontrado.</div>
+    <div id="empty" class="empty" style="display:none">Nenhum item encontrado no catálogo.</div>
   </div>
 
   <script>
-    // Se o index.html está no mesmo repo do catalog.json, o relativo funciona no GitHub Pages:
-    const CATALOG_URL = './catalog.json';
+    const CATALOG_URL = './catalog.json'; // lê do mesmo repo (GitHub Pages)
 
     const $ = (q)=>document.querySelector(q);
     const grid = $('#grid'), statusBox = $('#status'), emptyBox = $('#empty');
-    const searchInput = $('#q'), refreshBtn = $('#refresh');
 
     function deepLink(zip){ return 'mipinte://install?url=' + encodeURIComponent(zip); }
+    function status(msg, isErr=false){
+      if(!msg){ statusBox.innerHTML=''; return; }
+      statusBox.innerHTML = `<div class="${isErr?'error':'topnote'}">${escapeHtml(msg)}</div>`;
+    }
+    function escapeHtml(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
 
-    async function fetchCatalog(){
-      status('Carregando catálogo…');
-      const res = await fetch(CATALOG_URL, { cache: 'no-store' });
-      if(!res.ok) throw new Error('Falhou ao carregar catálogo ('+res.status+')');
-      const json = await res.json();
-      if(!Array.isArray(json)) throw new Error('Catálogo inválido: esperado array');
-      return json;
+    async function loadCatalog(){
+      try{
+        status('Carregando catálogo…');
+        const res = await fetch(CATALOG_URL, { cache: 'no-store' });
+        if(!res.ok) throw new Error('Falhou ao carregar catálogo ('+res.status+')');
+        const list = await res.json();
+        if(!Array.isArray(list)) throw new Error('Catálogo inválido: esperado array');
+
+        // ordena por título
+        list.sort((a,b)=> (a.title||'').localeCompare(b.title||''));
+        render(list);
+        status('');
+      }catch(e){
+        render([]);
+        status(e.message || 'Erro ao carregar catálogo.', true);
+      }
     }
 
     function render(items){
       grid.innerHTML = '';
       if(!items.length){ emptyBox.style.display='block'; return; }
       emptyBox.style.display='none';
+
       for(const it of items){
         const title = it.title || '(sem título)';
         const zip   = it.zip;
         const ver   = it.version ? 'v'+it.version : '';
         const thumb = it.thumb || '';
+
         const card = document.createElement('div');
         card.className = 'card';
-        card.innerHTML = `
-          <img class="thumb" alt="thumb" ${thumb ? `src="${thumb}"` : ''} onerror="this.style.display='none'"/>
-          <div class="title">${escapeHtml(title)}</div>
-          ${ver ? `<div class="muted">${ver}</div>` : ''}
-          <div class="row">
-            <a class="btn" href="${deepLink(zip)}">Abrir no MiPinte</a>
-            <a class="btn ghost" href="${zip}" download>Baixar .zip</a>
-          </div>
-        `;
+
+        const img = document.createElement('img');
+        img.className = 'thumb';
+        if(thumb) img.src = thumb;
+        img.alt = title;
+        img.onerror = ()=>{ img.style.display='none'; };
+
+        const body = document.createElement('div');
+        body.className = 'body';
+
+        const name = document.createElement('div');
+        name.className = 'name';
+        name.textContent = title;
+
+        const row = document.createElement('div');
+        row.className = 'row';
+        row.innerHTML = `<span class="badge">${escapeHtml(ver)}</span>`;
+
+        const actions = document.createElement('div');
+        actions.className = 'row';
+        const install = document.createElement('a');
+        install.className = 'btn';
+        install.textContent = 'Instalar no MiPinte';
+        install.href = deepLink(zip);
+
+        const zipLink = document.createElement('a');
+        zipLink.className = 'btn ghost';
+        zipLink.textContent = 'Baixar .zip';
+        zipLink.href = zip;
+
+        actions.appendChild(install);
+        actions.appendChild(zipLink);
+
+        body.appendChild(name);
+        body.appendChild(row);
+        body.appendChild(actions);
+
+        card.appendChild(img);
+        card.appendChild(body);
         grid.appendChild(card);
       }
     }
 
-    function escapeHtml(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
-    function status(msg, isErr=false){
-      if(!msg){ statusBox.innerHTML=''; return; }
-      statusBox.innerHTML = `<div class="${isErr?'error':''}">${escapeHtml(msg)}</div>`;
-    }
-
-    let itemsCache = [];
-    async function load(){
-      try{
-        status('Carregando catálogo…');
-        const items = await fetchCatalog();
-        itemsCache = items;
-        status('');
-        applyFilter();
-      }catch(e){
-        status(e.message || 'Erro ao carregar catálogo', true);
-        grid.innerHTML = ''; emptyBox.style.display='none';
-      }
-    }
-
-    function applyFilter(){
-      const q = searchInput.value.trim().toLowerCase();
-      const list = !q ? itemsCache : itemsCache.filter(x => (x.title||'').toLowerCase().includes(q));
-      render(list);
-    }
-
-    searchInput.addEventListener('input', applyFilter);
-    refreshBtn.addEventListener('click', (e)=>{ e.preventDefault(); load(); });
-
-    load();
+    loadCatalog();
   </script>
 </body>
 </html>
