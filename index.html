@@ -3,111 +3,115 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MiPinte — Teste de Instalação</title>
+  <title>MiPinte — Loja (Catálogo Git)</title>
   <style>
     :root{--bg:#F9FAFB;--card:#fff;--text:#0F172A;--muted:#64748B;--primary:#4D96FF;--border:#E2E8F0;}
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif}
-    .wrap{max-width:840px;margin:24px auto;padding:0 16px}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif}
+    .wrap{max-width:980px;margin:24px auto;padding:0 16px}
     h1{font-size:24px;margin:0 0 12px}
     p{color:var(--muted);margin:6px 0 16px}
-    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;margin:12px 0}
-    label{display:block;font-weight:600;margin-bottom:6px}
-    input[type="text"}{width:100%;padding:12px;border-radius:12px;border:1px solid var(--border);font-size:14px}
-    .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-    .btn{background:var(--primary);color:#fff;border:none;border-radius:999px;padding:10px 16px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
-    .btn.secondary{background:#fff;color:var(--muted);border:1px solid var(--border)}
-    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}
-    .examples{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
-    .badge{font-size:12px;color:var(--muted)}
-    .footer{margin-top:24px;font-size:12px;color:var(--muted)}
+    .toolbar{display:flex;gap:8px;align-items:center;margin:12px 0}
+    .search{flex:1;padding:12px;border-radius:12px;border:1px solid var(--border);font-size:14px;background:#fff}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:12px;display:flex;flex-direction:column;gap:8px}
+    .thumb{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:12px;background:#fff;border:1px solid var(--border)}
+    .title{font-weight:700} .muted{color:var(--muted);font-size:12px}
+    .row{display:flex;gap:8px;flex-wrap:wrap}
+    .btn{background:var(--primary);color:#fff;border:none;border-radius:999px;padding:10px 14px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+    .btn.ghost{background:#fff;color:var(--muted);border:1px solid var(--border)}
+    .error{background:#fff3f3;border:1px solid #ffd6d6;color:#7a1f1f;padding:12px;border-radius:12px}
+    .empty{color:var(--muted);text-align:center;padding:24px}
+    .topnote{font-size:12px;color:var(--muted)}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>MiPinte — Teste de Instalação via Deep Link</h1>
-    <p>Use <span class="mono">mipinte://install?url=&lt;ZIP_URL&gt;</span>. O app deriva o <em>id</em> do nome do arquivo antes de <span class="mono">.zip</span>.</p>
+    <h1>MiPinte — Loja (Catálogo do Git)</h1>
+    <p class="topnote">Esta página lê <code>catalog.json</code> neste repositório e monta a lista automaticamente. O botão “Abrir no MiPinte” usa <code>mipinte://install?url=&lt;ZIP_URL&gt;</code>. O app deriva o <em>id</em> do nome do arquivo antes de <code>.zip</code>.</p>
 
-    <div class="card">
-      <label for="zipUrl">URL do arquivo .zip</label>
-      <input id="zipUrl" type="text" placeholder="https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gato-fofinho.zip" />
-      <div class="row">
-        <a id="openLink" class="btn" href="#">Abrir no MiPinte</a>
-        <button id="copyLink" class="btn secondary" type="button">Copiar deep link</button>
-        <span id="status" class="badge"></span>
-      </div>
-      <p class="badge">Abra esta página no celular com o app instalado. Toque no botão para abrir o app.</p>
+    <div class="toolbar">
+      <input id="q" class="search" type="search" placeholder="Buscar por título…" />
+      <a id="refresh" class="btn ghost" href="#">Recarregar</a>
     </div>
 
-    <div class="card">
-      <strong>Exemplos</strong>
-      <div class="examples" id="examples"></div>
-    </div>
-
-    <div class="footer">
-      Cada .zip deve conter na raiz: <span class="mono">manifest.json</span>, <span class="mono">drawing.mipaint.json</span>, <span class="mono">drawing.svg</span>, <span class="mono">thumb.png</span>.
-    </div>
+    <div id="status"></div>
+    <div id="grid" class="grid"></div>
+    <div id="empty" class="empty" style="display:none">Nenhum item encontrado.</div>
   </div>
 
   <script>
+    // Se o index.html está no mesmo repo do catalog.json, o relativo funciona no GitHub Pages:
+    const CATALOG_URL = './catalog.json';
+
     const $ = (q)=>document.querySelector(q);
-    const zipInput = $('#zipUrl');
-    const openLink = $('#openLink');
-    const copyBtn  = $('#copyLink');
-    const statusEl = $('#status');
-    const examplesEl = $('#examples');
+    const grid = $('#grid'), statusBox = $('#status'), emptyBox = $('#empty');
+    const searchInput = $('#q'), refreshBtn = $('#refresh');
 
-    // BASE do seu repositório
-    const BASE = 'https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs';
-    const EXAMPLES = [
-      { title:'Gato Fofinho',  zip: BASE + '/gato-fofinho.zip' },
-      { title:'Gato Fofis',  zip: BASE + '/gato-fofis.zip' },
-      { title:'Peixe Sorriso', zip: BASE + '/peixe-sorriso.zip' },
-    ];
+    function deepLink(zip){ return 'mipinte://install?url=' + encodeURIComponent(zip); }
 
-    function buildDeepLink(zipUrl){ return 'mipinte://install?url=' + encodeURIComponent(zipUrl.trim()); }
-
-    function setLinkFromInput(){
-      const val = zipInput.value.trim();
-      if(!val){ openLink.removeAttribute('href'); return; }
-      openLink.setAttribute('href', buildDeepLink(val));
+    async function fetchCatalog(){
+      status('Carregando catálogo…');
+      const res = await fetch(CATALOG_URL, { cache: 'no-store' });
+      if(!res.ok) throw new Error('Falhou ao carregar catálogo ('+res.status+')');
+      const json = await res.json();
+      if(!Array.isArray(json)) throw new Error('Catálogo inválido: esperado array');
+      return json;
     }
 
-    zipInput.addEventListener('input', setLinkFromInput);
-    setLinkFromInput();
-
-    openLink.addEventListener('click', (e)=>{
-      const href = openLink.getAttribute('href');
-      if(!href){ e.preventDefault(); statusEl.textContent = 'Informe a URL do zip.'; return; }
-      statusEl.textContent = '';
-    });
-
-    copyBtn.addEventListener('click', async ()=>{
-      const val = zipInput.value.trim();
-      if(!val){ statusEl.textContent = 'Informe a URL do zip.'; return; }
-      const deep = buildDeepLink(val);
-      try{ await navigator.clipboard.writeText(deep); statusEl.textContent = 'Deep link copiado!'; }
-      catch{ statusEl.textContent = deep; }
-    });
-
-    function renderExamples(){
-      examplesEl.innerHTML = '';
-      EXAMPLES.forEach(ex => {
+    function render(items){
+      grid.innerHTML = '';
+      if(!items.length){ emptyBox.style.display='block'; return; }
+      emptyBox.style.display='none';
+      for(const it of items){
+        const title = it.title || '(sem título)';
+        const zip   = it.zip;
+        const ver   = it.version ? 'v'+it.version : '';
+        const thumb = it.thumb || '';
         const card = document.createElement('div');
         card.className = 'card';
         card.innerHTML = `
-          <div style="display:flex;justify-content:space-between;align-items:center;gap:8px">
-            <div>
-              <div style="font-weight:700">${ex.title}</div>
-              <div class="badge mono" style="word-break:break-all">${ex.zip}</div>
-            </div>
-            <a class="btn" href="${buildDeepLink(ex.zip)}">Instalar</a>
+          <img class="thumb" alt="thumb" ${thumb ? `src="${thumb}"` : ''} onerror="this.style.display='none'"/>
+          <div class="title">${escapeHtml(title)}</div>
+          ${ver ? `<div class="muted">${ver}</div>` : ''}
+          <div class="row">
+            <a class="btn" href="${deepLink(zip)}">Abrir no MiPinte</a>
+            <a class="btn ghost" href="${zip}" download>Baixar .zip</a>
           </div>
         `;
-        examplesEl.appendChild(card);
-      });
+        grid.appendChild(card);
+      }
     }
-    renderExamples();
+
+    function escapeHtml(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+    function status(msg, isErr=false){
+      if(!msg){ statusBox.innerHTML=''; return; }
+      statusBox.innerHTML = `<div class="${isErr?'error':''}">${escapeHtml(msg)}</div>`;
+    }
+
+    let itemsCache = [];
+    async function load(){
+      try{
+        status('Carregando catálogo…');
+        const items = await fetchCatalog();
+        itemsCache = items;
+        status('');
+        applyFilter();
+      }catch(e){
+        status(e.message || 'Erro ao carregar catálogo', true);
+        grid.innerHTML = ''; emptyBox.style.display='none';
+      }
+    }
+
+    function applyFilter(){
+      const q = searchInput.value.trim().toLowerCase();
+      const list = !q ? itemsCache : itemsCache.filter(x => (x.title||'').toLowerCase().includes(q));
+      render(list);
+    }
+
+    searchInput.addEventListener('input', applyFilter);
+    refreshBtn.addEventListener('click', (e)=>{ e.preventDefault(); load(); });
+
+    load();
   </script>
 </body>
 </html>
