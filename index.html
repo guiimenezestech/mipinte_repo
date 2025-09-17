@@ -13,7 +13,7 @@
     p{color:var(--muted);margin:6px 0 16px}
     .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:16px;margin:12px 0}
     label{display:block;font-weight:600;margin-bottom:6px}
-    input[type="text"]{width:100%;padding:12px;border-radius:12px;border:1px solid var(--border);font-size:14px}
+    input[type="text"}{width:100%;padding:12px;border-radius:12px;border:1px solid var(--border);font-size:14px}
     .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
     .btn{background:var(--primary);color:#fff;border:none;border-radius:999px;padding:10px 16px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
     .btn.secondary{background:#fff;color:var(--muted);border:1px solid var(--border)}
@@ -26,17 +26,17 @@
 <body>
   <div class="wrap">
     <h1>MiPinte — Teste de Instalação via Deep Link</h1>
-    <p>O link usado é <span class="mono">mipinte://install?url=&lt;ZIP_URL&gt;</span>. O app deriva o <em>id</em> do nome do arquivo antes de <span class="mono">.zip</span>.</p>
+    <p>Use <span class="mono">mipinte://install?url=&lt;ZIP_URL&gt;</span>. O app deriva o <em>id</em> do nome do arquivo antes de <span class="mono">.zip</span>.</p>
 
     <div class="card">
       <label for="zipUrl">URL do arquivo .zip</label>
-      <input id="zipUrl" type="text" placeholder="https://raw.githubusercontent.com/USER/REPO/main/packs/gato-fofinho.zip" />
+      <input id="zipUrl" type="text" placeholder="https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gato-fofinho.zip" />
       <div class="row">
         <a id="openLink" class="btn" href="#">Abrir no MiPinte</a>
         <button id="copyLink" class="btn secondary" type="button">Copiar deep link</button>
         <span id="status" class="badge"></span>
       </div>
-      <p class="badge">Abra esta página no celular onde o app está instalado. iOS/Android: toque no botão para abrir o app.</p>
+      <p class="badge">Abra esta página no celular com o app instalado. Toque no botão para abrir o app.</p>
     </div>
 
     <div class="card">
@@ -45,7 +45,7 @@
     </div>
 
     <div class="footer">
-      Estrutura do .zip: <span class="mono">manifest.json</span>, <span class="mono">drawing.mipaint.json</span>, <span class="mono">drawing.svg</span>, <span class="mono">thumb.png</span> na raiz.
+      Cada .zip deve conter na raiz: <span class="mono">manifest.json</span>, <span class="mono">drawing.mipaint.json</span>, <span class="mono">drawing.svg</span>, <span class="mono">thumb.png</span>.
     </div>
   </div>
 
@@ -57,8 +57,8 @@
     const statusEl = $('#status');
     const examplesEl = $('#examples');
 
-    // TROQUE USER/REPO pela sua conta:
-    const BASE = 'https://raw.githubusercontent.com/USER/REPO/main/packs';
+    // BASE do seu repositório
+    const BASE = 'https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs';
     const EXAMPLES = [
       { title:'Gato Fofinho',  zip: BASE + '/gato-fofinho.zip' },
       { title:'Peixe Sorriso', zip: BASE + '/peixe-sorriso.zip' },
