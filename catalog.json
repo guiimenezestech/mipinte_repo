@@ -10,5 +10,23 @@
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gatinho.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/gatinho.png",
     "version": "1.0.0"
+  },
+  {
+    "title": "Macaquinho",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/macaquinho.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/macaquinho.png",
+    "version": "1.0.0"
+  },
+  {
+    "title": "Fazendinha 1",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/fazendinha_1.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/fazendinha_1.png",
+    "version": "1.0.0"
+  },
+  {
+    "title": "Selva 1",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/selva_1.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/selva_1.png",
+    "version": "1.0.0"
   }
 ]
