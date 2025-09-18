@@ -4,5 +4,11 @@
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/cachorrinho.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/cachorrinho.png",
     "version": "1.0.0"
+  },
+  {
+    "title": "Gatinho",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gatinho.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/gatinho.png",
+    "version": "1.0.0"
   }
 ]
