@@ -1,20 +1,8 @@
 [
   {
-    "title": "Gato Fofinho",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gato-fofinho.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/gato-fofinho.png",
-    "version": "1.0.0"
-  },
-  {
-    "title": "Gato Fofis",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gato-fofis.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/gato-fofis.png",
-    "version": "1.0.0"
-  },
-  {
-    "title": "Peixe Sorriso",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/peixe-sorriso.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/peixe-sorriso.png",
+    "title": "Cachorrinho",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/cachorrinho.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/cachorrinho.png",
     "version": "1.0.0"
   }
 ]
