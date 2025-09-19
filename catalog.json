@@ -28,5 +28,11 @@
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/selva_1.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/selva_1.png",
     "version": "1.0.0"
+  },
+  {
+    "title": "Borboleta",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboleta.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboleta.png",
+    "version": "1.0.0"
   }
 ]
