@@ -47,5 +47,12 @@
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ana.png",
     "category": "Frozen",
     "version": "1.0.0"
+  },
+  {
+    "title": "Adão e Eva: fruto proibido",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/adao_eva.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/adao_eva.png",
+    "category": "Bíblico",
+    "version": "1.0.0"
   }
 ]
