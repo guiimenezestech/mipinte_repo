@@ -45,7 +45,7 @@
     "title": "Frozen: Ana",
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/ana.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ana.png",
-    "category": "Frozen",
+    "categories": ["Frozen", "Ana", "Princesa"],
     "version": "1.0.0"
   },
   {
