@@ -40,5 +40,12 @@
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboleta.png",
     "category": "Animais",
     "version": "1.0.0"
+  },
+  {
+    "title": "Frozen: Ana",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/ana.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ana.png",
+    "category": "Frozen",
+    "version": "1.0.0"
   }
 ]
