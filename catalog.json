@@ -45,7 +45,7 @@
     "title": "Frozen: Ana",
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/ana.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ana.png",
-    "categories": ["Frozen", "Ana", "Princesa"],
+    "categories": ["Frozen", "Ana", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
@@ -54,5 +54,47 @@
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/adao_eva.png",
     "category": "Bíblico",
     "version": "1.0.0"
-  }
+  },
+  {
+    "title": "Dininho",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/dininho.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/dininho.png",
+    "category": "Dinossauro",
+    "version": "1.0.0"
+  },
+  {
+    "title": "Dino",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/dino.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/dino.png",
+    "category": "Dinossauro",
+    "version": "1.0.0"
+  },
+  {
+    "title": "Arca de Noé",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/arca_de_noe.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/arca_de_noe.png",
+    "category": "Bíblico",
+    "version": "1.0.0"
+  },
+  {
+    "title": "Arca de Noé - Arco-íris",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/arca_noe_2.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/arca_noe_2.png",
+    "category": "Bíblico",
+    "version": "1.0.0"
+  },
+  {
+    "title": "Arca de Noé - Dilúvio",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/arca_de_noe_diluvio.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/arca_de_noe_diluvio.png",
+    "category": "Bíblico",
+    "version": "1.0.0"
+  },
+  {
+    "title": "A Pequena Sereia: Ariel",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/ariel_1.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ariel_1.png",
+    "categories": ["Seria", "Disney", "Princesa"],
+    "version": "1.0.0"
+  },
 ]
