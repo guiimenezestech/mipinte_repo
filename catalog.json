@@ -97,4 +97,11 @@
     "categories": ["Seria", "Disney", "Princesa"],
     "version": "1.0.0"
   },
+  {
+    "title": "Stitch",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/stitch.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/stitch.png",
+    "categories": ["Stitch", "Disney"],
+    "version": "1.0.0"
+  },
 ]
