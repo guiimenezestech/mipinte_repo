@@ -110,5 +110,26 @@
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/princesa_ariel_humana.png",
     "categories": ["A Pequena Sereia", "Ariel", "Princesa", "Disney"],
     "version": "1.0.0"
+  },
+  {
+    "title": "Aurora, Disney",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/aurora_animais.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/aurora_animais.png",
+    "categories": ["A Bela e a Fera", "Aurora", "Princesa", "Disney"],
+    "version": "1.0.0"
+  },
+  {
+    "title": "Bela, Disney",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bela_espelho.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela_espelho.png",
+    "categories": ["Bela", "Princesa", "Disney"],
+    "version": "1.0.0"
+  },
+  {
+    "title": "Bela Feliz, Disney",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bela.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela.png",
+    "categories": ["Bela", "Princesa", "Disney"],
+    "version": "1.0.0"
   }
 ]
