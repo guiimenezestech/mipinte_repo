@@ -131,5 +131,12 @@
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela.png",
     "categories": ["Bela", "Princesa", "Disney"],
     "version": "1.0.0"
+  },
+  {
+    "title": "Bela e a Fera dançando, Disney",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bela_e_a_fera.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela_e_a_fera.png",
+    "categories": ["Bela", "Princesa", "Disney"],
+    "version": "1.0.0"
   }
 ]
