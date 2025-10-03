@@ -82,5 +82,33 @@
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/stitch.png",
     "categories": ["Stitch", "Disney"],
     "version": "1.0.0"
+  },
+  {
+    "title": "Goku SSJ Blue",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/goku_ssj_blue.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/goku_ssj_blue.png",
+    "categories": ["Dragon Ball Super", "Goku"],
+    "version": "1.0.0"
+  },
+  {
+    "title": "Homem Aranha",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/homem_aranha.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/homem_aranha.png",
+    "categories": ["Homem Aranha", "Marvel"],
+    "version": "1.0.0"
+  },
+  {
+    "title": "Princesa Jasmine",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/jasmine_disney.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/jasmine_disney.png",
+    "categories": ["Jasmine", "Princesa", "Disney"],
+    "version": "1.0.0"
+  },
+  {
+    "title": "Princesa Ariel Humana",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/princesa_ariel_humana.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/princesa_ariel_humana.png",
+    "categories": ["Jasmine", "Princesa", "Disney"],
+    "version": "1.0.0"
   }
 ]
