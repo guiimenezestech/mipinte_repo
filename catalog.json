@@ -138,5 +138,12 @@
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela_e_a_fera.png",
     "categories": ["Bela", "Princesa", "Disney"],
     "version": "1.0.0"
+  },
+  {
+    "title": "A Pequena Sereia. Ariel.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/ariel.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ariel.png",
+    "categories": ["Ariel", "Princesa", "Disney","A Pequena Sereia"],
+    "version": "1.0.0"
   }
 ]
