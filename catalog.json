@@ -140,10 +140,10 @@
     "version": "1.0.0"
   },
   {
-    "title": "A Pequena Sereia. Ariel.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/ariel.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ariel.png",
-    "categories": ["Ariel", "Princesa", "Disney","A Pequena Sereia"],
+    "title": "Tiana.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/tiana.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/tiana.png",
+    "categories": ["Tiana", "Disney", "Princesa"],
     "version": "1.0.0"
   }
 ]
