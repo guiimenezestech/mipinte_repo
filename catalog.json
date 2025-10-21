@@ -189,6 +189,14 @@
   }
   ,
   {
+    "title": "Galinha Pintadinha Lendo.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/galinha_pintadinha.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/galinha_pintadinha.png",
+    "category": "Galinha Pintadinha",
+    "version": "1.0.0"
+  }
+  ,
+  {
     "title": "Stitch Bebendo Água de Coco.",
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/stitch_coco.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/stitch_coco.png",
