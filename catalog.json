@@ -243,4 +243,12 @@
     "categories": ["A Era do Gelo", "Disney", "Diego"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "A Era do Gelo - Sid e os Bebes T-rex.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/sid_bb_dinos.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/sid_bb_dinos.png",
+    "categories": ["A Era do Gelo", "Disney", "Sid"],
+    "version": "1.0.0"
+  }
 ]
