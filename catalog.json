@@ -251,4 +251,12 @@
     "categories": ["A Era do Gelo", "Disney", "Sid"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Peixinho.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/peixe.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/peixe.png",
+    "categories": ["Peixe", "Animais"],
+    "version": "1.0.0"
+  }
 ]
