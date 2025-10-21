@@ -213,18 +213,26 @@
   }
   ,
   {
-    "title": "Era do Gelo - Esquilo.",
+    "title": "A Era do Gelo - Esquilo.",
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/esquilo_era_do_gelo.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/esquilo_era_do_gelo.png",
-    "categories": ["Era do Gelo", "Disney", "Esquilo"],
+    "categories": ["A Era do Gelo", "Disney", "Esquilo"],
     "version": "1.0.0"
   }
   ,
   {
-    "title": "Era do Gelo - Amora.",
+    "title": "A Era do Gelo - Amora.",
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/amora_era_do_gelo.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/amora_era_do_gelo.png",
-    "categories": ["Era do Gelo", "Disney", "Amora"],
+    "categories": ["A Era do Gelo", "Disney", "Amora"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo - Sid na Árvore.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/sid_arvore.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/sid_arvore.png",
+    "categories": ["A Era do Gelo", "Disney", "Sid"],
     "version": "1.0.0"
   }
 ]
