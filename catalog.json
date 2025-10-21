@@ -186,4 +186,12 @@
     "categories": ["Bíblico", "Davi"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Sr. Dinossauro.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/sr_dinossauro.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/sr_dinossauro.png",
+    "category": "Dinossauro",
+    "version": "1.0.0"
+  }
 ]
