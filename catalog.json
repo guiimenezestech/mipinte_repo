@@ -143,7 +143,15 @@
     "title": "Borboletinha.",
     "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboletinha.zip",
     "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboletinha.png",
-    "categories": ["Borboleta", "Animais", ""],
+    "categories": ["Borboleta", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Borboleta 1.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboleta1.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboleta1.png",
+    "categories": ["Borboleta", "Animais"],
     "version": "1.0.0"
   }
 ]
