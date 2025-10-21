@@ -154,4 +154,12 @@
     "categories": ["Borboleta", "Animais"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Borboletas.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboletas.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboletas.png",
+    "categories": ["Borboleta", "Animais"],
+    "version": "1.0.0"
+  }
 ]
