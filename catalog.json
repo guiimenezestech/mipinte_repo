@@ -178,4 +178,12 @@
     "categories": ["Bíblico", "Daniel"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Davi e a Harpa.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/davi_harpa.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/davi_harpa.png",
+    "categories": ["Bíblico", "Davi"],
+    "version": "1.0.0"
+  }
 ]
