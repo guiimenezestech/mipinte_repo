@@ -170,4 +170,12 @@
     "categories": ["Bíblico", "Turminha de Deus"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Daniel e o Leão.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/daniel_leao.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/daniel_leao.png",
+    "categories": ["Bíblico", "Daniel"],
+    "version": "1.0.0"
+  }
 ]
