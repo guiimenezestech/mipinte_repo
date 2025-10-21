@@ -194,4 +194,12 @@
     "category": "Dinossauro",
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Stitch Bebendo Água de Coco.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/stitch_coco.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/stitch_coco.png",
+    "categories": ["Stitch", "Disney"],
+    "version": "1.0.0"
+  }
 ]
