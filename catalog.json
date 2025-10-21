@@ -162,4 +162,12 @@
     "categories": ["Borboleta", "Animais"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Turminha de Deus.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/turminha_de_deus.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/turminha_de_deus.png",
+    "categories": ["Bíblico", "Turminha de Deus"],
+    "version": "1.0.0"
+  }
 ]
