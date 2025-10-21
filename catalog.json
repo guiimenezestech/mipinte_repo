@@ -259,4 +259,12 @@
     "categories": ["Peixe", "Animais"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Pokémon: Pikachu.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/pikachu.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/pikachu.png",
+    "categories": ["Pokémon", "Pikachu"],
+    "version": "1.0.0"
+  }
 ]
