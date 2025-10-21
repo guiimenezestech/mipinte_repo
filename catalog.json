@@ -235,4 +235,12 @@
     "categories": ["A Era do Gelo", "Disney", "Sid"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "A Era do Gelo - Diego.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/diego_era_do_gelo.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/diego_era_do_gelo.png",
+    "categories": ["A Era do Gelo", "Disney", "Diego"],
+    "version": "1.0.0"
+  }
 ]
