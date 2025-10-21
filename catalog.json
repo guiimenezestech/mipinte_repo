@@ -211,4 +211,12 @@
     "categories": ["Stitch", "Disney", "Angel"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Era do Gelo - Esquilo.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/esquilo_era_do_gelo.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/esquilo_era_do_gelo.png",
+    "categories": ["Era do Gelo", "Disney", "Esquilo"],
+    "version": "1.0.0"
+  }
 ]
