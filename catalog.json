@@ -202,4 +202,12 @@
     "categories": ["Stitch", "Disney"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Stitch Tomando Sorvete.",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/stitch_sorvete.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/stitch_sorvete.png",
+    "categories": ["Stitch", "Disney"],
+    "version": "1.0.0"
+  }
 ]
