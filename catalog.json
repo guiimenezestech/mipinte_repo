@@ -275,4 +275,12 @@
     "categories": ["Pokémon", "Pikachu"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "A Era do Gelo: Amora flor",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/amora_1.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/amora_1.png",
+    "categories": ["A Era do Gelo", "Amora", "Disney"],
+    "version": "1.0.0"
+  }
 ]
