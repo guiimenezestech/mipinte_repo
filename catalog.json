@@ -483,4 +483,12 @@
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "bobbie-goods 26",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods26.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods26.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
 ]
