@@ -283,4 +283,36 @@
     "categories": ["A Era do Gelo", "Amora", "Disney"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "bobbie-goods 1",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods1.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods1.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "bobbie-goods 2",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods2.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods2.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "bobbie-goods 3",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods3.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods3.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "bobbie-goods 4",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods4.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods4.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
 ]
