@@ -315,4 +315,44 @@
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "bobbie-goods 5",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods5.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods5.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "bobbie-goods 6",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods6.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods6.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "bobbie-goods 7",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods7.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods7.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "bobbie-goods 8",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods8.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods8.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "bobbie-goods 9",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods9.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods9.png",
+    "category": "bobbie-goods",
+    "version": "1.0.0"
+  }
 ]
