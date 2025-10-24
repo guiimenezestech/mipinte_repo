@@ -555,4 +555,12 @@
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Gatinho Comendo",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gatinho_comendo.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/gatinho_comendo.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
 ]
