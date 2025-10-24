@@ -491,4 +491,68 @@
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Capivaras",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara1.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara1.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Capivara e Animais",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara2.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara2.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Capivara Mergulhando",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara3.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara3.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Capivara e Filhotes",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara4.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara4.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Capivara no Banho",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara5.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara5.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Capivara no Banho 2",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara6.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara6.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Capivara: Banho de Sol",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara7.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara7.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Capivara no varal",
+    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara8.zip",
+    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara8.png",
+    "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
 ]
