@@ -1,565 +1,565 @@
 [
   {
     "title": "Cachorrinho",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/cachorrinho.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/cachorrinho.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/cachorrinho.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/cachorrinho.png",
     "category": "Animais",
     "version": "1.0.0"
   },
   {
     "title": "Gatinho",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gatinho.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/gatinho.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/gatinho.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/gatinho.png",
     "category": "Animais",
     "version": "1.0.0"
   },
   {
     "title": "Macaquinho",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/macaquinho.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/macaquinho.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/macaquinho.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/macaquinho.png",
     "category": "Animais",
     "version": "1.0.0"
   },
   {
     "title": "Fazendinha 1",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/fazendinha_1.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/fazendinha_1.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/fazendinha_1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/fazendinha_1.png",
     "category": "Fazenda",
     "version": "1.0.0"
   },
   {
     "title": "Selva 1",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/selva_1.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/selva_1.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/selva_1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/selva_1.png",
     "category": "Selva",
     "version": "1.0.0"
   },
   {
     "title": "Borboleta",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboleta.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboleta.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/borboleta.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/borboleta.png",
     "category": "Animais",
     "version": "1.0.0"
   },
   {
     "title": "Frozen: Ana",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/ana.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/ana.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/ana.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/ana.png",
     "categories": ["Frozen", "Ana", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
     "title": "Adão e Eva: fruto proibido",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/adao_eva.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/adao_eva.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/adao_eva.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/adao_eva.png",
     "category": "Bíblico",
     "version": "1.0.0"
   },
   {
     "title": "Dininho",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/dininho.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/dininho.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/dininho.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/dininho.png",
     "category": "Dinossauro",
     "version": "1.0.0"
   },
   {
     "title": "Dino",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/dino.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/dino.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/dino.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/dino.png",
     "category": "Dinossauro",
     "version": "1.0.0"
   },
   {
     "title": "Arca de Noé",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/arca_de_noe.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/arca_de_noe.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/arca_de_noe.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/arca_de_noe.png",
     "category": "Bíblico",
     "version": "1.0.0"
   },
   {
     "title": "Goku SSJ Blue",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/goku_ssj_blue.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/goku_ssj_blue.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/goku_ssj_blue.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/goku_ssj_blue.png",
     "categories": ["Dragon Ball Super", "Goku"],
     "version": "1.0.0"
   },
   {
     "title": "Homem Aranha",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/homem_aranha.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/homem_aranha.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/homem_aranha.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/homem_aranha.png",
     "categories": ["Homem Aranha", "Marvel"],
     "version": "1.0.0"
   },
   {
     "title": "Princesa Jasmine",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/jasmine_disney.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/jasmine_disney.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/jasmine_disney.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/jasmine_disney.png",
     "categories": ["Jasmine", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
     "title": "Princesa Ariel Humana",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/princesa_ariel_humana.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/princesa_ariel_humana.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/princesa_ariel_humana.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/princesa_ariel_humana.png",
     "categories": ["A Pequena Sereia", "Ariel", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
     "title": "Aurora, Disney",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/aurora_animais.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/aurora_animais.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/aurora_animais.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/aurora_animais.png",
     "categories": ["A Bela e a Fera", "Aurora", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
     "title": "Bela, Disney",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bela_espelho.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela_espelho.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bela_espelho.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bela_espelho.png",
     "categories": ["Bela", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
     "title": "Bela Feliz, Disney",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bela.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bela.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bela.png",
     "categories": ["Bela", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
     "title": "Bela e a Fera dançando.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/a_bela_e_a_feraa.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bela_e_a_fera.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/a_bela_e_a_feraa.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bela_e_a_fera.png",
     "categories": ["Bela", "Princesa", "Disney"],
     "version": "1.0.0"
   },
   {
     "title": "Borboletinha.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboletinha.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboletinha.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/borboletinha.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/borboletinha.png",
     "categories": ["Borboleta", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Borboleta 1.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboleta1.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboleta1.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/borboleta1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/borboleta1.png",
     "categories": ["Borboleta", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Borboletas.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/borboletas.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/borboletas.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/borboletas.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/borboletas.png",
     "categories": ["Borboleta", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Turminha de Deus.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/turminha_de_deus.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/turminha_de_deus.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/turminha_de_deus.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/turminha_de_deus.png",
     "categories": ["Bíblico", "Turminha de Deus"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Daniel e o Leão.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/daniel_leao.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/daniel_leao.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/daniel_leao.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/daniel_leao.png",
     "categories": ["Bíblico", "Daniel"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Davi e a Harpa.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/davi_harpa.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/davi_harpa.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/davi_harpa.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/davi_harpa.png",
     "categories": ["Bíblico", "Davi"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Sr. Dinossauro.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/sr_dinossauro.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/sr_dinossauro.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/sr_dinossauro.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/sr_dinossauro.png",
     "category": "Dinossauro",
     "version": "1.0.0"
   }
   ,
   {
     "title": "Galinha Pintadinha Lendo.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/galinha_pintadinha.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/galinha_pintadinha.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/galinha_pintadinha.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/galinha_pintadinha.png",
     "category": "Galinha Pintadinha",
     "version": "1.0.0"
   }
   ,
   {
     "title": "Stitch Bebendo Água de Coco.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/stitch_coco.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/stitch_coco.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/stitch_coco.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/stitch_coco.png",
     "categories": ["Stitch", "Disney"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Stitch Tomando Sorvete.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/stitch_sorvete.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/stitch_sorvete.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/stitch_sorvete.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/stitch_sorvete.png",
     "categories": ["Stitch", "Disney"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Angel - Stitch.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/angel_stitch.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/angel_stitch.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/angel_stitch.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/angel_stitch.png",
     "categories": ["Stitch", "Disney", "Angel"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "A Era do Gelo - Esquilo.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/esquilo_era_do_gelo.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/esquilo_era_do_gelo.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/esquilo_era_do_gelo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/esquilo_era_do_gelo.png",
     "categories": ["A Era do Gelo", "Disney", "Esquilo"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "A Era do Gelo - Amora.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/amora_era_do_gelo.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/amora_era_do_gelo.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/amora_era_do_gelo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/amora_era_do_gelo.png",
     "categories": ["A Era do Gelo", "Disney", "Amora"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "A Era do Gelo - Sid na Árvore.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/sid_arvore.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/sid_arvore.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/sid_arvore.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/sid_arvore.png",
     "categories": ["A Era do Gelo", "Disney", "Sid"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "A Era do Gelo - Diego.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/diego_era_do_gelo.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/diego_era_do_gelo.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/diego_era_do_gelo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/diego_era_do_gelo.png",
     "categories": ["A Era do Gelo", "Disney", "Diego"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "A Era do Gelo - Sid e os Bebes T-rex.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/sid_bb_dinos.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/sid_bb_dinos.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/sid_bb_dinos.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/sid_bb_dinos.png",
     "categories": ["A Era do Gelo", "Disney", "Sid"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Peixinho.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/peixe.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/peixe.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/peixe.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/peixe.png",
     "categories": ["Peixe", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Pokémon: Pikachu.",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/pikachu.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/pikachu.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/pikachu.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/pikachu.png",
     "categories": ["Pokémon", "Pikachu"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "A Era do Gelo: Amora flor",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/amora_1.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/amora_1.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/amora_1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/amora_1.png",
     "categories": ["A Era do Gelo", "Amora", "Disney"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 1",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods1.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods1.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods1.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 2",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods2.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods2.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods2.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods2.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 3",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods3.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods3.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods3.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods3.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 4",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods4.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods4.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods4.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods4.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 5",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods5.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods5.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods5.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods5.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 6",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods6.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods6.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods6.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods6.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 7",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods7.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods7.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods7.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods7.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 8",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods8.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods8.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods8.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods8.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 9",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods9.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods9.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods9.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods9.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 10",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods10.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods10.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods10.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods10.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 11",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods11.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods11.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods11.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods11.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 12",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods12.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods12.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods12.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods12.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 13",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods13.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods13.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods13.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods13.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 14",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods14.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods14.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods14.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods14.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 15",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods15.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods15.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods15.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods15.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 16",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods16.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods16.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods16.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods16.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 17",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods17.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods17.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods17.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods17.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 18",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods18.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods18.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods18.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods18.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 19",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods19.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods19.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods19.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods19.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 20",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods20.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods20.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods20.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods20.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 21",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods21.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods21.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods21.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods21.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 22",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods22.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods22.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods22.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods22.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 23",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods23.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods23.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods23.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods23.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 24",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods24.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods24.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods24.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods24.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 25",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods25.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods25.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods25.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods25.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "bobbie-goods 26",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/bobbie-goods26.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/bobbie-goods26.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods26.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods26.png",
     "category": "bobbie-goods",
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivaras",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara1.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara1.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara1.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivara e Animais",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara2.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara2.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara2.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara2.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivara Mergulhando",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara3.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara3.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara3.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara3.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivara e Filhotes",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara4.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara4.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara4.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara4.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivara no Banho",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara5.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara5.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara5.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara5.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivara no Banho 2",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara6.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara6.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara6.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara6.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivara: Banho de Sol",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara7.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara7.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara7.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara7.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Capivara no varal",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/capivara8.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/capivara8.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/capivara8.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/capivara8.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
   ,
   {
     "title": "Gatinho Comendo",
-    "zip": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/packs/gatinho_comendo.zip",
-    "thumb": "https://raw.githubusercontent.com/guiimenezestech/mipinte_repo/main/thumbs/gatinho_comendo.png",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/gatinho_comendo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/gatinho_comendo.png",
     "categories": ["Capivara", "Animais"],
     "version": "1.0.0"
   }
