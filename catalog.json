@@ -767,4 +767,36 @@
     "category": "MineCraft",
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Patrulha Canina:  Rubble",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/patrulha_canina_1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/patrulha_canina_1.png",
+    "categories": ["Patrulha Canina", "Rubble"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Patrulha Canina:  Skye",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/patrulha_canina_2.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/patrulha_canina_2.png",
+    "categories": ["Patrulha Canina", "Skye"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Patrulha Canina:  Everest",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/patrulha_canina_3.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/patrulha_canina_3.png",
+    "categories": ["Patrulha Canina", "Everest"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Patrulha Canina: Praia",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/patrulha_canina_4.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/patrulha_canina_4.png",
+    "categories": ["Patrulha Canina"],
+    "version": "1.0.0"
+  }
 ]
