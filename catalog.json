@@ -799,4 +799,12 @@
     "categories": ["Patrulha Canina"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Turma da Mônica: Cebolinha e Cascão Jogando Bola",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/turma_monica_1.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/turma_monica_1.png",
+    "categories": ["Turma da Mônica", "Cebolinha", "Cascão"],
+    "version": "1.0.0"
+  }
 ]
