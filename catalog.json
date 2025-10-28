@@ -21,6 +21,13 @@
     "version": "1.0.0"
   },
   {
+    "title": "Cachorrinhos Felizes",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/cachorrinhos_felizes.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/cachorrinhos_felizes.png",
+    "category": "Animais",
+    "version": "1.0.0"
+  },
+  {
     "title": "Cachorrinho Feliz, Flores",
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/cachorrinho_feliz_flores.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/cachorrinho_feliz_flores.png",
@@ -626,6 +633,14 @@
   }
   ,
   {
+    "title": "A Era do Gelo: Amora no Campo",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/amora_no_campo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/amora_no_campo.png",
+    "categories": ["A Era do Gelo", "Disney", "Amora"],
+    "version": "1.0.0"
+  }
+  ,
+  {
     "title": "A Era do Gelo - Dinos.",
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/era_do_gelo_dinos.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/era_do_gelo_dinos.png",
@@ -638,6 +653,14 @@
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/a_era_do_gelo_mamunte.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/a_era_do_gelo_mamunte.png",
     "categories": ["A Era do Gelo", "Disney", "Manny"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo: Sid e a Família",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/sid_e_a_familia_dele.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/sid_e_a_familia_dele.png",
+    "categories": ["A Era do Gelo", "Disney", "Sid"],
     "version": "1.0.0"
   }
 ]
