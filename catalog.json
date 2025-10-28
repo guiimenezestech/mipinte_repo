@@ -663,4 +663,44 @@
     "categories": ["A Era do Gelo", "Disney", "Sid"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "A Era do Gelo: Sid e Manny (Gelo)",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/sid_mamute_gelo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/sid_mamute_gelo.png",
+    "categories": ["A Era do Gelo", "Disney", "Sid", "Manny"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo: Ellie, Pintura na Caverna",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/ellie_pintura_caverna.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/ellie_pintura_caverna.png",
+    "categories": ["A Era do Gelo", "Disney", "Ellie"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo: Sid Enrolado no Cipó",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/sid_cipo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/sid_cipo.png",
+    "categories": ["A Era do Gelo", "Disney", "Sid"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo: Sid Carregado",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/sid_carregado.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/sid_carregado.png",
+    "categories": ["A Era do Gelo", "Disney", "Sid"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Patrick Pilotando",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/patrick_bob.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/patrick_bob.png",
+    "categories": ["Bob Esponja", "Patrick"],
+    "version": "1.0.0"
+  }
 ]
