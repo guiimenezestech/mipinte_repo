@@ -697,6 +697,14 @@
   }
   ,
   {
+    "title": "A Era do Gelo: Scrat",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/esquilo_era_do_gelo.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/esquilo_era_do_gelo.png",
+    "categories": ["A Era do Gelo", "Disney", "Scrat"],
+    "version": "1.0.0"
+  }
+  ,
+  {
     "title": "Patrick Pilotando",
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/patrick_bob.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/patrick_bob.png",
@@ -709,6 +717,54 @@
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bob_praia.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bob_praia.png",
     "category": "Bob Esponja",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "MineCraft - 1",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/minec.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/minec.png",
+    "category": "MineCraft",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "MineCraft - 2",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/minec2.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/minec2.png",
+    "category": "MineCraft",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "MineCraft - 3",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/minec3.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/minec3.png",
+    "category": "MineCraft",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "MineCraft - Cachorro",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/minec4.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/minec4.png",
+    "category": "MineCraft",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "MineCraft - 5",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/minec5.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/minec5.png",
+    "category": "MineCraft",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "MineCraft - Terror",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/minec6.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/minec6.png",
+    "category": "MineCraft",
     "version": "1.0.0"
   }
 ]
