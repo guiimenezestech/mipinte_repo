@@ -703,4 +703,12 @@
     "categories": ["Bob Esponja", "Patrick"],
     "version": "1.0.0"
   }
+  ,
+  {
+    "title": "Bob Esponja na Praia",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bob_praia.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bob_praia.png",
+    "category": "Bob Esponja",
+    "version": "1.0.0"
+  }
 ]
