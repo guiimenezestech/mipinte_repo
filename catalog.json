@@ -7,6 +7,20 @@
     "version": "1.0.0"
   },
   {
+    "title": "Cachorrinhos - Família",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/cachorrinho_familia.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/cachorrinho_familia.png",
+    "category": "Animais",
+    "version": "1.0.0"
+  },
+  {
+    "title": "Cachorrinho Feliz, Flores",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/cachorrinho_feliz_flores.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/cachorrinho_feliz_flores.png",
+    "category": "Animais",
+    "version": "1.0.0"
+  },
+  {
     "title": "Gatinho",
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/gatinho.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/gatinho.png",
@@ -485,6 +499,38 @@
   }
   ,
   {
+    "title": "Bob Esponja - Casa do Bob Esponja",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bob_esponja_casa_bob.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bob_esponja_casa_bob.png",
+    "category": "Bob Esponja",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Bob Esponja - Bob Esponja Saindo de Casa",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bob_esponja_saindo_de_casa.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bob_esponja_saindo_de_casa.png",
+    "category": "Bob Esponja",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Bob Esponja - Arco-íris",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bob_arcoiris.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bob_arcoiris.png",
+    "category": "Bob Esponja",
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "Bob Esponja e Patrick",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bob_e_patrick.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bob_e_patrick.png",
+    "category": "Bob Esponja",
+    "version": "1.0.0"
+  }
+  ,
+  {
     "title": "bobbie-goods 26",
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/bobbie-goods26.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/bobbie-goods26.png",
@@ -561,6 +607,30 @@
     "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/gatinho_comendo.zip",
     "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/gatinho_comendo.png",
     "categories": ["Capivara", "Animais"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo - Amora, flores.",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/amora_flores.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/amora_flores.png",
+    "categories": ["A Era do Gelo", "Disney", "Amora"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo - Dinos.",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/era_do_gelo_dinos.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/era_do_gelo_dinos.png",
+    "categories": ["A Era do Gelo", "Disney"],
+    "version": "1.0.0"
+  }
+  ,
+  {
+    "title": "A Era do Gelo - Manny.",
+    "zip": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/packs/a_era_do_gelo_mamunte.zip",
+    "thumb": "https://ohaecdbtdisbqkwilkle.supabase.co/storage/v1/object/public/loja/thumbs/a_era_do_gelo_mamunte.png",
+    "categories": ["A Era do Gelo", "Disney", "Manny"],
     "version": "1.0.0"
   }
 ]
